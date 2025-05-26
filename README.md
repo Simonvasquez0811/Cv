@@ -1,12 +1,66 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ 🧾 CV - Simón Vásquez
 
-Currently, two official plugins are available:
+Este es un proyecto desarrollado como parte de la formación en el SENA para construir una hoja de vida digital utilizando **React** y **Vite**. El proyecto emplea componentes funcionales, estructura modular y control de versiones con Git y GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Vista previa
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Captura de pantalla del CV](./cv-proyecto/src/captura.png)
+
+
+
+
+## 🧑‍💼 Descripción personal
+
+Soy un aprendiz del SENA con conocimientos en desarrollo frontend. Me considero una persona proactiva, responsable y con mucha motivación por aprender y crecer profesionalmente. Este proyecto representa mis primeras prácticas en React y GitHub.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- ⚛️ React
+- ⚡ Vite
+- 🎨 HTML5 + CSS3
+- 🧠 JavaScript (ES6+)
+- 🗂️ Git & GitHub
+
+---
+
+## 💡 Habilidades
+
+### Técnicas
+- Desarrollo de interfaces web con React
+- Manejo de componentes funcionales
+- Uso de props y estado
+- Control de versiones con Git
+- Publicación de repositorios en GitHub
+
+### Blandas
+- Trabajo en equipo
+- Comunicación efectiva
+- Adaptación al cambio
+- Pensamiento crítico
+- Responsabilidad
+
+---
+
+
+---
+
+## 🛠️ Cómo ejecutar este proyecto
+
+1. Clona este repositorio:
+```bash
+git clone https://github.com/Simonvasquez0811/Cv.git
+Entra al directorio del proyecto:
+
+cd cv-simon
+Instala las dependencias:
+
+npm install
+Ejecuta el proyecto:
+
+npm run dev
