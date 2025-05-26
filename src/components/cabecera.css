@@ -1,0 +1,21 @@
+h1{
+    font-family: fantasy;
+    color: lightsteelblue;
+}
+
+
+h2{
+    font-family: fantasy;
+    color: lightseagreen;
+}
+
+p{
+    font-family: monospace;
+    color: lightyellow;
+}
+
+*{
+
+    background-color: black;
+}
+
