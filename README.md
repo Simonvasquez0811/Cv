@@ -8,8 +8,8 @@ Este es un proyecto desarrollado como parte de la formación en el SENA para con
 
 ## 🖼️ Vista previa
 
-![Captura de pantalla del CV](.src/captura1.png)
-![Captura de pantalla del CV](.src/captura2.png)
+![Captura de pantalla del CV](.Cv/src/captura1.png)
+![Captura de pantalla del CV](.Cv/src/captura2.png)
 
 
 
