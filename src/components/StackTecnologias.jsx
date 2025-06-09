@@ -1,34 +1,42 @@
-export default function StackTecnologias() {
-  const tecnologias = [
-    { id: 1, nombre: "React", tipo: "frontend" },
-    { id: 2, nombre: "Node.js", tipo: "backend" },
-    { id: 3, nombre: "JavaScript", tipo: "frontend" },
-    { id: 4, nombre: "PostgreSQL", tipo: "base de datos" },
-    { id: 5, nombre: "CSS", tipo: "frontend" }
-  ];
+// src/components/StackTecnologias.jsx
+import React from "react";
+
+export default function StackTecnologias({ tecnologias }) {
+  // Función para asignar colores según el tipo de tecnología
+  const obtenerColor = (tipo) => {
+    switch (tipo) {
+      case "frontend":
+        return "blue";
+      case "backend":
+        return "green";
+      case "base de datos":
+        return "orange";
+      default:
+        return "gray";
+    }
+  };
+
+  if (!tecnologias || tecnologias.length === 0) {
+    return (
+      <section>
+        <h3>Stack de Tecnologías</h3>
+        <p>No se han registrado tecnologías.</p>
+        <hr />
+      </section>
+    );
+  }
 
   return (
     <section>
       <h3>Stack de Tecnologías</h3>
       <ul>
-        {tecnologias.map((tech) => (
-          <li
-            key={tech.id}
-            style={{
-              color:
-                tech.tipo === "frontend"
-                  ? "blue"
-                  : tech.tipo === "backend"
-                  ? "green"
-                  : tech.tipo === "base de datos"
-                  ? "orange"
-                  : "gray"
-            }}
-          >
-            {tech.nombre} - <em>{tech.tipo}</em>
+        {tecnologias.map(({ id, nombre, tipo }) => (
+          <li key={id} style={{ color: obtenerColor(tipo) }}>
+            {nombre} - <em>{tipo}</em>
           </li>
         ))}
       </ul>
+      <hr />
     </section>
   );
 }
