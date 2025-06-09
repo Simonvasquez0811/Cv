@@ -1,19 +1,17 @@
 # React + Vite
 
- 🧾 CV - Simón Vásquez
+🧾 CV - Simón Vásquez
 
-Este es un proyecto desarrollado como parte de la formación en el SENA para construir una hoja de vida digital utilizando **React** y **Vite**. El proyecto emplea componentes funcionales, estructura modular y control de versiones con Git y GitHub.
+Este es un proyecto desarrollado como parte de la formación en el SENA para construir una hoja de vida digital utilizando **React** y **Vite**. El proyecto emplea componentes funcionales, estructura modular, **componentes reutilizables mediante Props**, y control de versiones con Git y GitHub.
 
 ---
 
 ## 🖼️ Vista previa
 
-![Captura de pantalla del CV](src/captura1.png)
+![Captura de pantalla del CV](src/Captura1.png)  
 ![Captura de pantalla del CV](src/captura2.png)
 
-
-
-
+---
 
 ## 🧑‍💼 Descripción personal
 
@@ -34,13 +32,15 @@ Soy un aprendiz del SENA con conocimientos en desarrollo frontend. Me considero 
 ## 💡 Habilidades
 
 ### Técnicas
+
 - Desarrollo de interfaces web con React
 - Manejo de componentes funcionales
-- Uso de props y estado
+- **Uso de Props para crear componentes reutilizables**
 - Control de versiones con Git
 - Publicación de repositorios en GitHub
 
 ### Blandas
+
 - Trabajo en equipo
 - Comunicación efectiva
 - Adaptación al cambio
@@ -50,7 +50,7 @@ Soy un aprendiz del SENA con conocimientos en desarrollo frontend. Me considero 
 ---
 
 
----
+
 
 ## 🛠️ Cómo ejecutar este proyecto
 

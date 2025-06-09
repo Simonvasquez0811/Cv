@@ -9,4 +9,6 @@ export default function Perfil({ texto }) {
       <hr />
     </section>
   );
+  
 }
+
