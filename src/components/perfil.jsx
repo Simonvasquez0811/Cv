@@ -1,4 +1,5 @@
 // src/components/Perfil.jsx
+import "./perfil.css";
 import React from "react";
 
 export default function Perfil({ texto }) {

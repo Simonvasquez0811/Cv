@@ -1,4 +1,5 @@
 // src/components/CabeceraCV.jsx
+import "./cabecera.css";
 import React from "react";
 
 export default function CabeceraCV({ nombre, profesion }) {
